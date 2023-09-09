@@ -4,7 +4,7 @@ import './style.css';
 export default function App() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
-  const fullNme = firstName + lastName
+  const fullName = firstName + lastName
 
   const handleFirstName = (e) => {
     setFirstName(e.target.value);
@@ -30,7 +30,7 @@ export default function App() {
       lastName: {lastName}
       <br />
       <br />
-      fullName: {fullNme}
+      fullName: {fullName}
     </form>
   );
 }
