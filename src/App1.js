@@ -8,7 +8,7 @@ export default function App1() {
   };
   const {firstName,lastName} = inp
 
-  const fullNme = firstName + lastName
+  const fullName = firstName + lastName
 
   return (
     <form>
@@ -26,7 +26,7 @@ export default function App1() {
       lastName: {lastName}
       <br />
       <br />
-      fullName: {fullNme}
+      fullName: {fullName}
     </form>
   );
 }
